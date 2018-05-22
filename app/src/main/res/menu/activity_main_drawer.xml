@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="buttonMenu1" />
+        <item
+            android:id="@+id/menu2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="buttonMenu2" />
+        <item
+            android:id="@+id/menu3"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="buttonMenu3" />
+        <item
+            android:id="@+id/menu4"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="buttonMenu4" />
+        <item
+            android:id="@+id/menu5"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="buttonMenu5" />
+        <item
+            android:id="@+id/menu6"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="buttonMenu6" />
+        <item
+            android:id="@+id/menu7"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="buttonMenu7" />
+        <item
+            android:id="@+id/menu8"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu8" />
+        <item
+            android:id="@+id/menu9"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu9" />
+        <item
+            android:id="@+id/nav_manage7"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu3" />
+        <item
+            android:id="@+id/nav_manage8"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu3" />
+        <item
+            android:id="@+id/nav_manage9"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu3" />
+        <item
+            android:id="@+id/nav_manage10"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu3" />
+        <item
+            android:id="@+id/nav_manage11"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu3" />
+        <item
+            android:id="@+id/nav_manage12"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="buttonMenu3" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
