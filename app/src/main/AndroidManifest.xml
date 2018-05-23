@@ -34,7 +34,12 @@
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity android:name=".Activity4" />
-        <activity android:name=".Activity2"></activity>
+        <activity android:name=".Activity2"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="Fortnite Skin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

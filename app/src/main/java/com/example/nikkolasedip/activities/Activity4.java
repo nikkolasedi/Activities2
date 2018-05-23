@@ -1,7 +1,8 @@
 package com.example.nikkolasedip.activities;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class Activity4 extends AppCompatActivity {
 
@@ -9,5 +10,6 @@ public class Activity4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_4);
+
     }
 }

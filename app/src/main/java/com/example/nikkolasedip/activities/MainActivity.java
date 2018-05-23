@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.menu8) {
             openActivity3();
         } else if (id == R.id.menu9) {
-            openActivityAd();
+            openScrollingActivity();
 
     }
 
@@ -154,6 +154,10 @@ public class MainActivity extends AppCompatActivity
 
     public void openSetting() {
         Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+    public void openScrollingActivity() {
+        Intent intent = new Intent(this, ScrollingActivity.class);
         startActivity(intent);
     }
 
